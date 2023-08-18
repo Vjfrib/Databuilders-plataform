@@ -5,7 +5,8 @@
 
 .center-container {
   display: flex;
+  background-color: aquamarine;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Isso vai centralizar verticalmente na altura total da viewport */
+  height: 10vh; /* Isso vai centralizar verticalmente na altura total da viewport */
 }
