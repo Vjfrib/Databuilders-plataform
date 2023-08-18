@@ -1,22 +1,28 @@
-.welcome-card img {
-  max-height: 35vh;
-  overflow: hidden;
-}
-
-.center-container {
+.centro {
+  position: relative;
   display: flex;
-  background-color: aquamarine;
   justify-content: center;
   align-items: center;
-  height: 10vh; /* Isso vai centralizar verticalmente na altura total da viewport */
+  height: 100vh; /* Ajuste a altura conforme necessário */
+  overflow: hidden; /* Para não permitir que o conteúdo saia dos limites */
 }
 
-ion-input.custom {
-  --placeholder-color: #ddd;
-  --placeholder-opacity: 0.8;
+.background-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(https://compositegroup.com.br/blog/wp-content/uploads/2020/11/composite-problemas-construc%CC%A7a%CC%83o-civil-e1605796857625.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.5; /* Ajuste a opacidade conforme desejado */
+}
 
-  --padding-bottom: 10px;
-  --padding-end: 10px;
-  --padding-start: 10px;
-  --padding-top: 10px;
+.overlay-content {
+  position: relative;
+  z-index: 1; /* Garante que o conteúdo esteja acima do background */
+  max-width: 400px; /* Defina o tamanho máximo para a div */
+  padding: 20px; /* Adicione algum espaçamento interno */
 }

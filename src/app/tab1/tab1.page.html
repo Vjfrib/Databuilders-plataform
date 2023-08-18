@@ -7,17 +7,24 @@
 </ion-header>
 
 <ion-content>
-    <div class="center-container">
-      <ion-input class="custom" label="Email" label-placement="floating" fill="outline" placeholder="Email"></ion-input>
+  <div class="centro">
+    <div class="background-img"></div>
+    
+    <div class="overlay-content">
+      <div class="center-container">
+        <ion-input class="custom" label="Email" label-placement="floating" fill="outline" placeholder="Email"></ion-input>
+      </div>
+      <br>
+      <div class="center-container">
+        <ion-input class="custom" type="password" label="Senha" label-placement="floating" fill="outline" placeholder="Senha"></ion-input>
+      </div>
+      <br>
+      <div class="center-container">
+        <ion-button shape="round" fill="outline">
+          <ion-icon slot="start" name="person-circle-outline"></ion-icon>login
+        </ion-button>
+      </div>
     </div>
-<br>
-    <div class="center-container">
-      <ion-input class="custom" type="password" label="Senha" label-placement="floating" fill="outline" placeholder="Senha"></ion-input>
-    </div>
-<br>
-    <div class="center-container">
-      <ion-button shape="round" fill="outline">
-        <ion-icon slot="start" name="person-circle-outline"></ion-icon>login
-      </ion-button>
-    </div>
+  </div>
+  
 </ion-content>
