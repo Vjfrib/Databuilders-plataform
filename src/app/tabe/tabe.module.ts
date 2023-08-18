@@ -8,12 +8,7 @@ import { tabePageRoutingModule } from './tabe.router.module';
 import { tabePage } from './tabe.page';
 
 @NgModule({
-  imports: [
-    IonicModule,
-    CommonModule,
-    FormsModule,
-    tabePageRoutingModule
-  ],
-  declarations: [tabePage]
+  imports: [IonicModule, CommonModule, FormsModule, tabePageRoutingModule],
+  declarations: [tabePage],
 })
 export class tabePageModule {}
