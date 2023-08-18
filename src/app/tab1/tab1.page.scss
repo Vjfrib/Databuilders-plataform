@@ -42,3 +42,31 @@
   margin: 10px 0;
 }
 
+
+.toolbar-background {
+  background-image: url(https://i.ibb.co/TWrqct8/nome.png); /* Substitua pelo caminho correto da imagem */
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 767px) {
+  .toolbar-background ion-button {
+    display: none; /* Esconde o botão em telas menores */
+  }
+}
+ion-img {
+  height: 150%;
+  width: 150%;
+  background-color: rgb(222, 222, 222); /* Substitua pela cor de cinza que você deseja */
+  padding: 5px; /* Adicione um espaçamento interno para o contêiner da imagem */
+}
+
+.image-container {
+
+}
+
+/* Ajuste o tamanho, margens e outros estilos conforme necessário */
+.ion-content {
+  margin-top: 20px;
+}
