@@ -3,15 +3,15 @@ import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { userPage } from './user.page';
+import { LoginPage } from './login.page';
 
 @NgModule({
   imports: [
     IonicModule,
     CommonModule,
     FormsModule,
-    RouterModule.forChild([{ path: '', component: userPage }])
+    RouterModule.forChild([{ path: 'login', component: LoginPage }]) // Defina o caminho para a página de login
   ],
-  declarations: [userPage]
+  declarations: [LoginPage]
 })
-export class userPageModule {}
+export class LoginPageModule {}
