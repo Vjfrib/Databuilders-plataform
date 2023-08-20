@@ -1,1 +1,12 @@
 
+.round-button {
+  width: 50px; /* Defina o tamanho desejado */
+  height: 50px; /* Defina o tamanho desejado */
+  border-radius: 50%;
+  background-color: #007bff; /* Cor de fundo do botão */
+  color: #fff; /* Cor do ícone */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none; /* Remova a decoração de link */
+}
